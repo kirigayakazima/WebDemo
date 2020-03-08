@@ -1,0 +1,253 @@
+*{
+    text-decoration: none!important;
+    list-style: none;
+}
+/*********color*********/
+html,body{
+    color: #333333 !important;
+}
+.btn-login{
+    background: #ff8500!important;
+    color: white;
+}
+.bg-light-dark{
+    background: #323953;
+    opacity: 0.95;
+}
+.hoverRed,a{
+    color: black;
+}
+.ranking:hover{
+    color: gray;
+}
+
+.ranking-one,.ranking-two{
+    border-bottom: lightgray 1px solid;
+}
+.ranking-one:hover,.ranking-two:hover{
+    border-bottom:gray 2px solid;
+    color: gray;
+    margin-top: -1px;
+}
+
+
+
+/*********margin*********/
+.mt-2_5{
+    margin-top: 0.625rem !important;
+}
+.m-margin-down-small{
+    margin: -3px -3px!important;
+}
+.m-margin-top-negative{
+    margin-top: -1.5rem;
+}
+
+/***********修改特效**********/
+/*hover悬浮展开下拉菜单**/
+#clientInfo:hover .dropdown-menu {
+    display: block!important;
+}
+#moreInfo:hover .dropdown-menu {
+    display: block!important;
+}
+#loginInfo:hover .dropdown-menu {
+    display: block!important;
+}
+/**********width&height***********/
+.navMenu{
+    width: 300px;
+    border: 1px lightgray solid;
+    padding: 0 2px;
+}
+
+#headCarousel{
+    width: 500px;
+    height: 333px;
+}
+
+.underline-image{
+    width: 162px;
+    height: 110px;
+}
+
+/*********border************/
+.navMenuUl{
+    border-top: lightgray 1px dashed;
+}
+.center-box{
+
+}
+
+/************自定义的class*************/
+.outline{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.m-text-white{
+    font-size: 18px;
+    color: white!important;
+    margin: 0 28px;
+}
+
+.login-box{
+    width: 550px;
+    height: 260px;
+}
+
+.login-user-box{
+    width: 178px;
+    height: 30px;
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+.hoverRed:hover,.container-color:hover{
+    color: #ff8500;
+}
+
+.m-mynav {
+    z-index: 1;
+    top: 0;
+}
+.active{
+    background-color: #1b1e21!important;
+}
+.fixednav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.fixedfooter{
+    position: fixed;
+    top: 40px;
+    left: 1018px;
+    z-index: 1;
+    transition: .5s;
+}
+
+.fa-play-circle{
+    font-size: 40px;
+    position: relative;
+    top: 130px;
+    left: -80px;
+}
+
+
+.hoverimg{
+    transition: all 0.4s;
+}
+
+.hoverimg:hover {
+    transform: scale(1.1);
+}
+
+
+
+.container-head-line{
+    list-style: none;
+}
+
+
+.m-padding-tb{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+
+.m-accordion{
+    width:650px;
+    height: 450px;
+    margin: auto;
+
+}
+.m-accordion ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.m-accordion li{
+    width:100px;
+    height: 450px;
+    float:left;
+    border:1px solid black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: .3s;
+}
+.m-accordion li img{
+    height: 450px;
+}
+
+.clear-both{
+    clear: both;
+}
+
+hr{
+    height: 1px;
+}
+
+.news-container{
+    border-bottom: 1px lightgray solid;
+}
+.container-color{
+    color: #4d4f53;
+}
+
+.backslash{
+    color: lightgray;
+
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.footer-box{
+    border-top: 1px lightgray dashed;
+   // margin:10px 0 0;
+}
+.footer-info{
+   // border: 1px black solid;
+    margin: 10px 0 10px;
+
+}
+/*****************************/
+/**********font***************/
+.m-text-small{
+    font-size: 12px!important;
+}
+.m-text{
+    font-size: 14px!important;
+}
+.m-text-middle{
+    font-size: 20px!important;
+}
+.ranking-text-font{
+    font-size: 14px!important;
+}
+
+
+/************display**************/
+.ranking-two-box{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/***************修改原有的css*************/
+
