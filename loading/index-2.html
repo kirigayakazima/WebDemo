@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>loading动画</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .my-boll{
+            width: 200px;
+            height: 200px;
+            margin: 200px auto;
+            position: relative;
+        }
+        .boll{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #6CCAC9;
+        }
+        .boll-1{
+            top: 0;
+            left: 170px;
+            animation: boll-1-move 2s ease;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        .boll-2{
+            top: 170px;
+            left: 0;
+            animation: boll-2-move 2s ease;
+            animation-iteration-count: infinite;
+            animation-direction: inherit;
+        }
+
+        @keyframes boll-1-move {
+            0%{
+                top: 0;
+                left: 170px;
+                transform: scale(1.8) rotate(0deg);
+            }
+            25%{
+                top: 170px;
+                left: 170px;
+                transform: scale(1) rotate(90deg);
+            }
+            50%{
+                top: 170px;
+                left: 0px;
+                transform: scale(1.8) rotate(180deg);
+            }
+            75%{
+                top: 0px;
+                left: 0px;
+                transform: scale(1) rotate(270deg);
+            }
+            100%{
+                top: 0px;
+                left: 170px;
+                transform: scale(1.8) rotate(360deg);
+            }
+        }
+
+        @keyframes boll-2-move {
+            0%{
+                top: 170px;
+                left: 0px;
+                transform: scale(1.8) rotate(0deg);
+            }
+            25%{
+                top: 0px;
+                left: 0px;
+                transform: scale(1) rotate(90deg);
+            }
+            50%{
+                top: 0px;
+                left: 170px;
+                transform: scale(1.8) rotate(180deg);
+            }
+            75%{
+                top: 170px;
+                left: 170px;
+                transform: scale(1) rotate(270deg);
+            }
+            100%{
+                top: 170px;
+                left: 0px;
+                transform: scale(1.8) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="my-boll">
+    <div class="boll boll-1"></div>
+    <div class="boll boll-2"></div>
+</div>
+
+
+</body>
+</html>
